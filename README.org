@@ -4,7 +4,7 @@
 #+CAPTION: logo
 
 # The maximum height of the logo should be 200 pixels.
-[[img/vue.png]]
+# [[img/vue.png]]
 
 * Table of Contents                                        :TOC_4_org:noexport:
  - [[Description][Description]]
