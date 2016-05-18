@@ -24,16 +24,16 @@
 (defun vue/init-vue-mode ()
     (use-package vue-mode))
 
-(defun vue/init-mmm-mode ()
+(defun vue/post-init-mmm-mode ()
     (use-package mmm-mode))
 
-(defun vue/init-jade-mode ()
+(defun vue/post-init-jade-mode ()
     (use-package jade-mode))
 
-(defun vue/init-web-mode ()
+(defun vue/post-init-web-mode ()
     (use-package web-mode))
 
-(defun vue/init-less-css-mode ()
+(defun vue/post-init-less-css-mode ()
     (use-package less-css-mode))
 
 (when (configuration-layer/layer-usedp 'auto-completion)
