@@ -22,10 +22,6 @@
 	))
 
 (defun vue/init-vue-mode ()
-    (use-package mmm-mode)
-    (use-package jade-mode)
-    (use-package web-mode)
-    (use-package less-css-mode)
     (use-package vue-mode))
 
 (defun vue/init-mmm-mode ()
