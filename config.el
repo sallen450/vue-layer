@@ -11,6 +11,9 @@
 
 ;;; Code:
 
+(spacemacs|defvar-company-backends web-mode)
+(spacemacs|defvar-company-backends jade-mode)
+(spacemacs|defvar-company-backends lesscss-mode)
 (spacemacs|defvar-company-backends vue-mode)
 
 ;;; config.el ends here

@@ -38,8 +38,11 @@
 
 (when (configuration-layer/layer-usedp 'auto-completion)
 
-  ;; Hook company to python-mode
+  ;; Hook company to vue-mode etc
   (defun vue/post-init-company ()
+    (spacemacs|add-company-hook web-mode)
+    (spacemacs|add-company-hook jade-mode)
+    (spacemacs|add-company-hook less-css-mode)
     (spacemacs|add-company-hook vue-mode))
 
   ;; Add the backend to the major-mode specific backend list
